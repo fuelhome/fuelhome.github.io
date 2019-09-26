@@ -166,3 +166,11 @@ header{
 .see-more h4 a {
     color: white;
 }
+
+.sidenav-trigger {
+    color: black;
+}
+
+.sidenav-trigger:hover {
+    color: #f2b705;
+}
