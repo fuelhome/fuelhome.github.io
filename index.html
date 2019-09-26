@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fuel Home</title>
     <!--las fuentes-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,900|Playfair+Display:900|Roboto:400,500,500i,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e9564529ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -145,6 +146,13 @@
                 fullWidth: true,
                 indicators: true
             });
+        });
+    </script>
+    <script>
+        //este script inicia el sidenav
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, []);
         });
     </script>
     <script src="./index.js"></script>
