@@ -163,3 +163,6 @@ header{
     border-radius: 100%;
 }
 
+.see-more h4 a {
+    color: white;
+}
