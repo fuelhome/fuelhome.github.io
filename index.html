@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fuel Home</title>
+    <!--las fuentes-->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,900|Playfair+Display:900|Roboto:400,500,500i,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9564529ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+      <div class="pre-nav"></div> 
+      <nav class="nav-1">
+        <!-- esto seria el nav del inico con informacion sobre la empresa-->  
+        <div class="nav-wrapper">
+            <!--este seria el nav para telefonos-->
+            <ul id="slide-out" class="sidenav">
+                <li><div class="user-view">
+                <div class="background">
+                    <img src="images/office.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div></li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <!--esto seria el nav para desktop o larger-->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">Servicios</a></li>
+              <li><a href="badges.html">Contactos</a></li>
+              <li><a href="collapsible.html">Sobre nosotros</a></li>
+            </ul>
+        </div>
+      </nav>
+      <!--esto seria el row pequeño con el logo y el numero telefonico-->
+      <div class="row banner">
+            <div class="col m6 s12">
+                <figure >
+                    <img class="responsive-img" src="./logofuel1.png">
+                </figure>
+            </div>
+            <div class="col m6 s12">
+                <div class="phone-number">
+                    <h3>Contactanos Ya</h3>                   
+                    <p><span class="call-number"><a href="tel:+584244087043" id="fuel-number">0258-766-4727</a></span></p>
+                </div>
+            </div>
+      </div>
+      <!-- con esto seteariamos el segundo nav que contiene mas informacion sobre la empresa-->
+      <nav class="nav-2">
+          <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#!" class="dropdown-trigger black-hover" data-target='dropdown1'>Categorias</a>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">one</a></li>
+                    <li><a href="#!">two</a></li>
+                    <li><a href="#!">two</a></li>
+                    </ul>
+                </li>
+                <li><a href="collapsible.html" class="black-hover">Servicios</a></li>
+                <li><a href="#!" class="black-hover">Ubicanos</a></li>
+              </ul>
+          </div>
+      </nav>
+      <!-- en esta seccion pondremos las imagenes que van en carousel-->
+      <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="s12 m6">
+                    <div class="carousel carousel-slider center" >
+                        <div class="carousel-item white-text carousel-1" href="#one!" id="1">
+                            <h2>First Panel</h2>
+                            <p class="white-text">This is your first panel</p>  
+                        </div>
+                        <div class="carousel-item white-text carousel-2" href="#two!" id="2">
+                            <h2>Second Panel</h2>
+                            <p class="white-text">This is your second panel</p>
+                        </div>
+                        <div class="carousel-item white-text carousel-3" href="#three!" id="3">
+                            <h2>Third Panel</h2>
+                            <p class="white-text">This is your third panel</p>
+                        </div>
+                        <div class="carousel-item white-text carousel-4" href="#four!" id="4">
+                            <h2>Fourth Panel</h2>
+                            <p class="white-text">This is your fourth panel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- la seccion es para dar datos atractivos de la empresa-->
+      <div class="description row">
+        <div class="divider"></div> 
+        <div class="container">
+            <div class="col s3 desc darker"><p>envios en menos de 24H</p></div>
+            <div class="col s3 desc"><p>Productos verificados</p></div>
+            <div class="col s3 desc darker"><p>distribuidores oficiales</p></div>
+            <div class="col s3 desc"><p>faciles de contactar</p></div>
+            <!-- esta seccion es pequeña con un call to action a ver los productos abajo-->
+            <div class="col s12 see-more center">
+                <h4><a href="#!">Nuestros productos aqui abajo</a></h4>
+            </div> 
+        </div>
+      </div>
+      
+           
+    </header>
+    <div class="row">
+        <div class="col m8 push-m2">
+            <div class="container">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum eum pariatur provident ullam? Placeat, minus explicabo architecto aut exercitationem ea, harum deleniti libero autem delectus doloremque sit vero natus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, saepe. Voluptate labore, ratione quo sequi accusantium porro voluptatem asperiores, exercitationem deserunt ipsam nobis tempore nesciunt nisi quasi quisquam id neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsum corporis molestias, voluptate repellat reiciendis obcaecati. Aliquam exercitationem autem porro accusantium voluptate dolores, eveniet maiores! Qui incidunt perferendis veritatis excepturi?l Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe velit maxime veniam harum, perferendis laborum in et nulla ut dolorum iure suscipit odit natus eligendi delectus minus voluptatum voluptatibus tenetur.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script>
+        //esto inicia los colapsibles
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems);
+        });
+    </script>
+    <script>
+        //este script inicia el caorusel
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, {
+                duration:320,
+                fullWidth: true,
+                indicators: true
+            });
+        });
+    </script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-family: 'roboto';
+}
+
+/*con esta seccion iremos por partes con  primero con el nav principal*/
+
+.pre-nav {
+    min-height: 5vh;
+    background: #f2b705;
+}
+
+.nav-1 {
+    background: linear-gradient(45deg, #fff 60%, #f2b705 40%);
+    font-family: 'anton';
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+
+/*aqui vamos declarar los estilos del banner*/
+
+.banner{
+    max-height: 19vh;
+    overflow: hidden;
+}
+
+.banner figure {
+    padding: 0;
+    max-width: 25vh;
+}
+
+.banner .phone-number {
+    /*estilos generales del contenedor del numero de telefono*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-number h3 {
+    font-family: 'Anton';
+    font-size: 4em;
+}
+
+.call-number {
+    font-family: 'Maven pro', 'Anton';
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.call-number a{
+    color: #3d9dd9;
+}
+
+.call-number a:hover {
+    color: #3eeee0;
+}
+
+/*estos son los estilos del segundo nav*/
+
+.nav-2 {
+    background: #0d0d0d;
+    font-family: 'anton';
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+
+.nav-2 ul li a{
+    padding: 0 20px 0 20px;
+}
+
+.nav-2 ul li .black-hover:hover {
+    background: #fff;
+    color: #0d0d0d;    
+}
+
+.dropdown-content {
+    color: #0d0d0d;
+}
+
+/*vamos con las imagenes y el background del carousel*/
+
+.hero {
+    background: #f2b705;
+    max-height: 40vh;
+    overflow: hidden;
+}
+
+.carousel {
+    max-height: 40vh;
+    width: 100%;
+}
+
+.carousel-1 {
+    background-image: url(https://i.imgur.com/aO3q8TU.png);
+    background-size: cover;
+}
+
+.carousel-2 {
+    background-image: url(https://i.imgur.com/aO3q8TU.png);
+    background-size: cover;
+}
+
+.carousel-3 {
+    background-image: url(https://i.imgur.com/aO3q8TU.png);
+    background-size: cover;
+}
+
+.carousel-4 {
+    background-image: url(https://i.imgur.com/aO3q8TU.png);
+    background-size: cover;
+}
+
+.divider{
+    padding: 0 ;
+    margin: 0;
+    height: 1vh;
+    width: 100%;
+    background: #0d0d0d;
+}
+
+/*listo con el caousel y vamos con los containers de descripcion*/
+
+.description{
+    background: #f2b705;
+    max-height: 20vh;
+    min-height: 20vh;
+    overflow: hidden;
+}
+
+.description .col{
+    max-height: 15vh;
+    min-height: 10vh;
+}
+
+.description .darker{
+    background: #f2cb05
+}
+
+.desc p {
+    font-family: 'anton';
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/*esta es el link para los productos*/
+
+.see-more {
+    height: 5vh;
+    max-height: 5vh;
+    width: 10vw;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+
