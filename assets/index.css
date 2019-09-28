@@ -160,7 +160,7 @@ header{
     background: #0d0d0d;
     display: flex;
     justify-content: center;
-    border-radius: 100%;
+    border-radius: 150px;
 }
 
 .see-more h4 a {
@@ -174,3 +174,7 @@ header{
 .sidenav-trigger:hover {
     color: #f2b705;
 }
+
+/*esto es para los servicios*/
+
+/*esto es para los inyectores*/
