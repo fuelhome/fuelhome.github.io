@@ -9,13 +9,13 @@ html{
     bottom: 30px;
     right: 30px;
     background: #3d9dd9;
-    border-radius:50px; 
-    width: 100px;
-    max-width: 100px;
-    min-width: 100px;
-    height: 100px;
-    min-height: 100px;
-    max-height: 100px;
+    border-radius:35px; 
+    width: 70px;
+    max-width: 70px;
+    min-width: 70px;
+    height: 70px;
+    min-height: 70px;
+    max-height: 70px;
 }
 
 .boton-arriba .buton-content{
