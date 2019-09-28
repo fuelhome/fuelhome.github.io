@@ -1,7 +1,38 @@
 html{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
+/*css del boton arriba*/
+.boton-arriba {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #3d9dd9;
+    border-radius:50px; 
+    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.boton-arriba .buton-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-arriba a {
+    color: white;
+}
+
+
+
 header{
     font-family: 'roboto';
 }

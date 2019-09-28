@@ -32,7 +32,7 @@
 </head>
 <body>
     <header>
-      <div class="pre-nav"></div> 
+      <div class="pre-nav" id="top"></div> 
       <nav class="nav-1">
         <!-- esto seria el nav del inico con informacion sobre la empresa-->  
         <div class="nav-wrapper">
@@ -55,9 +55,9 @@
             <a href="#" data-target="slide-out" class="sidenav-trigger">></a>
             <!--esto seria el nav para desktop o larger-->
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="sass.html">Servicios</a></li>
-              <li><a href="badges.html">Contactos</a></li>
-              <li><a href="collapsible.html">Sobre nosotros</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="./contacto/index.html">Contactos</a></li>
+              <li><a href="./SobreNosotros/index.html">Sobre nosotros</a></li>
             </ul>
         </div>
       </nav>
@@ -130,12 +130,10 @@
             <div class="col s3 desc"><p>faciles de contactar</p></div>
             <!-- esta seccion es pequeña con un call to action a ver los productos abajo-->
             <div class="col s12 see-more center">
-                <h4><a href="#servicios">Nuestros productos aqui abajo</a></h4>
+                <h4><a href="#productos">Nuestros productos aqui abajo</a></h4>
             </div> 
         </div>
-      </div>
-      
-           
+      </div>       
     </header>
     <div class="row">
         <div class="aside col m2 left">
@@ -151,6 +149,9 @@
         <div class="col m8">
             <div class="img-r servicios" id="servicios">
                 <div class="row">
+                    <div class="col s12" id="servicios">
+                        <h3>Servicios</h3>
+                    </div>
                     <div class="col s6">
                         <h3>limpieza y mantenimiento de inyectores</h3>
                         <p>Mantenimiento de calidad y revision de tus inyectores por un personal capacitado</p>
@@ -163,7 +164,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s12 center">
+                <div class="col s12 center" id="productos">
                     <h3>Injectores</h3>
                 </div>
             </div>
@@ -255,12 +256,12 @@
                     </div>
                 </div>
             </div>
-            
         </div>
-            
-    <div class="boton-arriba">
-        ^
-    </div>
+        <div class="boton-arriba">
+            <div class="buton-content">
+                <a href="#top"> boton arriba</a>
+            </div>        
+        </div>    
     <footer>
         <div class="container row">
             <div class="s6">
