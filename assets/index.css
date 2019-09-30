@@ -3,6 +3,10 @@ html{
     margin: 0;
     scroll-behavior: smooth;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 /*css del boton arriba*/
 .boton-arriba {
     position: fixed;
@@ -219,13 +223,16 @@ header{
 /*esto es para los inyectores*/
 
 /*esto es para las ubicaciones*/
-
+#ubicanos iframe {
+    max-width: 100%;
+}
 /*esto es para el footer*/
 footer {
-    display: inline-block;
-    background: #0d0d0d;
-    min-height: 20vh;
-    max-height: 20vh;
-    bottom: 0px;
-    position: relative; 
+    background: #0d0d0d !important;
+    color: white; 
+    min-height: 35vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    bottom: 0;
 }
