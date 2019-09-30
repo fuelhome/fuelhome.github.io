@@ -209,12 +209,23 @@ header{
 
 /*con esto configuramos los aside*/
 .aside {
-    display: block;
+    display: flex;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    bottom: 10px;
+    top: 8vh;
 }
-
 /*esto es para los servicios*/
 
 /*esto es para los inyectores*/
+
+/*esto es para las ubicaciones*/
+
+/*esto es para el footer*/
+footer {
+    display: inline-block;
+    background: #0d0d0d;
+    min-height: 20vh;
+    max-height: 20vh;
+    bottom: 0px;
+    position: relative; 
+}
