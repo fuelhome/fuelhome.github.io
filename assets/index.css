@@ -33,6 +33,7 @@ body {
 
 .boton-arriba a {
     color: white;
+    font-size: 40px;
 }
 
 
@@ -134,23 +135,24 @@ header{
 }
 
 .carousel-1 {
-    background-image: url(https://i.imgur.com/aO3q8TU.png);
+    background-image: url(https://image.freepik.com/foto-gratis/sistema-inyeccion-moderno-motor-diesel-turbo-common-rail-arbol-levas-tapa-valvula_77569-44.jpg);
     background-size: cover;
 }
 
 .carousel-2 {
-    background-image: url(https://i.imgur.com/aO3q8TU.png);
+    background-image: url(https://image.freepik.com/foto-gratis/primer-plano-motor-coche_1170-1510.jpg);
     background-size: cover;
 }
 
 .carousel-3 {
-    background-image: url(https://i.imgur.com/aO3q8TU.png);
-    background-size: cover;
+    background-image: url(http://www.isk.cl/wp-content/uploads/2018/06/Foto-1-Limpia-Inyector-cnc-602A.jpg);
+    background-size: contain;
+    background-position:;
 }
 
 .carousel-4 {
-    background-image: url(https://i.imgur.com/aO3q8TU.png);
-    background-size: cover;
+    background-image: url(https://image.freepik.com/vector-gratis/transporte-mercancia-carga-logistica-caricatura_18591-52476.jpg);
+    background-size: contain;
 }
 
 .divider{
@@ -200,6 +202,10 @@ header{
 
 .see-more h4 a {
     color: white;
+}
+
+.see-more h4 a:hover {
+    color: #3d9dd9;
 }
 
 /*esto es para el sidenav para los telefonos*/
