@@ -44,6 +44,11 @@ function ShowInjectors () {
         </div>
     </div>
 </div>`;
+    var element = document.getElementById("hidenEl");
+    element.classList.add("hiden");
+
+    var catTitle = document.getElementById("elements-title-show");
+    catTitle.innerHTML = `Inyectores`;
 };
 
 document.getElementById("repuestos").addEventListener("click", ShowRepuestos);
@@ -149,6 +154,11 @@ function ShowRepuestos () {
         </div>
     </div>
 </div>`;
+    var element = document.getElementById("hidenEl");
+    element.classList.add("hiden");
+
+    var catTitle = document.getElementById("elements-title-show");
+    catTitle.innerHTML = `Repuestos de inyectores`
 };
 
 document.getElementById("estaciones").addEventListener("click", showBancosDePruebas)
@@ -181,7 +191,11 @@ function showBancosDePruebas () {
             </div>
         </div>
     </div>`
+    var element = document.getElementById("hidenEl");
+    element.classList.add("hiden");
 
+    var catTitle = document.getElementById("elements-title-show");
+    catTitle.innerHTML = `Repuestos de Bancos de pruebas para inyectores`
 }
 
 document.getElementById("Todos").addEventListener("click", ShowAll);
@@ -345,4 +359,9 @@ function ShowAll () {
             </div>
         </div>
     </div>`
+    var element = document.getElementById("hidenEl");
+    element.classList.add("hiden");
+
+    var catTitle = document.getElementById("elements-title-show");
+    catTitle.innerHTML = `Todos los Productos`
 };

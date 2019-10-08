@@ -1,0 +1,20 @@
+/* esta clase es para ocultar elementos*/
+.hiden {
+    display: none;
+}
+
+/*esto es para el categories bar de la izquierda*/
+.cateBar {
+    position: sticky;
+    top: 10px;
+}
+
+.cateBar li ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.cateBar ul li {
+    text-decoration: none;
+    list-style-type: none !important;
+}

@@ -54,9 +54,9 @@
               <a href="#" data-target="slide-out" class="sidenav-trigger">></a>
               <!--esto seria el nav para desktop o larger-->
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="./contacto/index.html">Contactos</a></li>
-                <li><a href="./about_us/index.html">Sobre nosotros</a></li>
+                <li><a href="../index.html#servicios">Servicios</a></li>
+                <li><a href="../contacto/index.html">Contactos</a></li>
+                <li><a href="../about_us/index.html">Sobre nosotros</a></li>
               </ul>
           </div>
         </nav>
@@ -82,18 +82,18 @@
                       <a href="#!" class="dropdown-trigger black-hover" data-target='dropdown1'>Categorias</a>
                       <!-- Dropdown Structure -->
                       <ul id='dropdown1' class='dropdown-content'>
-                          <li><a href="#!">Injectores</a></li>
-                          <li><a href="#!">Repuestos de injectores</a></li>
-                          <li><a href="#!">Bancos de pruba</a></li>
+                          <li><a href="./todo.html">Injectores</a></li>
+                          <li><a href="./todo.html">Repuestos de injectores</a></li>
+                          <li><a href="./todo.html">Bancos de pruba</a></li>
                       </ul>
                   </li>
-                  <li><a href="#ubicanos" class="black-hover">Ubicanos</a></li>
-                  <li><a href="#!" class="black-hover">Home</a></li>
+                  <li><a href="../index.html#ubicanos" class="black-hover">Ubicanos</a></li>
+                  <li><a href="../index.html" class="black-hover">Home</a></li>
                 </ul>
             </div>
         </nav>
     <div class="row">
-        <div class="col l2 left">
+        <div class="col l2 left cateBar hide-on-small-only">
             <li>
                 <ul><button class="injectores btn"><a href="#injectores" id="inyector">injectores</a></button></ul>
                 <ul><button class="repustos btn"><a href="#repuestos" id="repuestos">Repuestos</a></button></ul>
@@ -102,7 +102,7 @@
             </li>
         </div>
         <div class="col l8 elemts-container ">
-            <div class="elements-title center"><span class="allHide">Todos Los productos</span><span id="elements-title-show"></span></div>
+            <div class="elements-title center"><h3><span class="" id="hidenEl">Todos Los productos</span><span id="elements-title-show"></span></h3></div>
             <div class="row" id="element-row">
                 <div class="allHide">
                     <div class="col m4 s12">
@@ -265,8 +265,68 @@
             </div>
         </div>
     </div>
-</body>
+    <div class="boton-arriba">
+        <div class="buton-content">
+            <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+        </div>        
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l2  m2 s4">
+                    <h5>Fuel Home</h5>
+                    <li>
+                        <ul><a href="#">Quiene somos</a></ul>
+                    </li>
+                </div>
+                <div class="col l2 m2 s4">
+                    <h5>Servicios y productos</h5>
+                    <li>
+                        <ul><a href="#">inyectores</a></ul>
+                        <ul><a href="#">Repuestos Automitrices</a></ul>
+                        <ul><a href="#">Prueba de inyectores</a></ul>
+                        <ul><a href="#">Repuestos de launch</a></ul>
+                    </li>
+                </div>
+                <div class="col l2 m2 s4">
+                    <h5>Telefono</h5>
+                    <li>
+                        <ul><a href="tel:02587664933">0258-766-4933</a></ul>
+                    </li>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-square"></i><i data-vi="doc"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fas fa-mail-bulk"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019  FuelHome <a class="grey-text text-lighten-4 right" href="#!">Trabajos</a>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        //esto inicia los colapsibles
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems);
+        });
+    </script>
+    <script>
+        //este script inicia el sidenav
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, []);
+        });
+    </script>
     <script src="files.js/elements.js"></script>
+</body>
 </html>
