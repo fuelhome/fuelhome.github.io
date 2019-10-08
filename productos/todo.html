@@ -9,20 +9,260 @@
     <script src="https://kit.fontawesome.com/e9564529ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../assets/index.css">
+    <!--con esto agragamos los fav-icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assetsapple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assetsapple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assetsapple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assetsapple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assetsapple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assetsapple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assetsapple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assetsapple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../assets/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <link rel="manifest" href="../assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../assets/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <title>Document</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col l8 elemts-container ">
-            <div class="elements-title"></div>
-            <div class="row" id="element-row">
-    
-            </div>
+    <div class="pre-nav" id="top"></div> 
+        <nav class="nav-1">
+          <!-- esto seria el nav del inico con informacion sobre la empresa-->  
+          <div class="nav-wrapper">
+              <!--este seria el nav para telefonos-->
+              <ul id="slide-out" class="sidenav">
+                  <li><div class="user-view">
+                  <div class="background">
+                      <img src="images/office.jpg">
+                  </div>
+                  <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                  <a href="#name"><span class="white-text name">John Doe</span></a>
+                  <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                  </div></li>
+                  <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                  <li><a href="#!">Second Link</a></li>
+                  <li><div class="divider"></div></li>
+                  <li><a class="subheader">Subheader</a></li>
+                  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+              </ul>
+              <a href="#" data-target="slide-out" class="sidenav-trigger">></a>
+              <!--esto seria el nav para desktop o larger-->
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="./contacto/index.html">Contactos</a></li>
+                <li><a href="./about_us/index.html">Sobre nosotros</a></li>
+              </ul>
+          </div>
+        </nav>
+        <!--esto seria el row pequeño con el logo y el numero telefonico-->
+        <div class="row banner">
+              <div class="col m6 s12">
+                  <figure >
+                      <img class="responsive-img" src="https://i.imgur.com/lR53YqLm.png" alt="FuelHome Logo casa del injector repuestos tienda online">
+                  </figure>
+              </div>
+              <div class="col m6 s12">
+                  <div class="phone-number">
+                      <h3>Contactanos Ya</h3>                   
+                      <p><span class="call-number"><a href="tel:02587664933" id="fuel-number">0258-766-4933</a></span></p>
+                  </div>
+              </div>
         </div>
+        <!-- con esto seteariamos el segundo nav que contiene mas informacion sobre la empresa-->
+        <nav class="nav-2">
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li>
+                      <a href="#!" class="dropdown-trigger black-hover" data-target='dropdown1'>Categorias</a>
+                      <!-- Dropdown Structure -->
+                      <ul id='dropdown1' class='dropdown-content'>
+                          <li><a href="#!">Injectores</a></li>
+                          <li><a href="#!">Repuestos de injectores</a></li>
+                          <li><a href="#!">Bancos de pruba</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#ubicanos" class="black-hover">Ubicanos</a></li>
+                  <li><a href="#!" class="black-hover">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    <div class="row">
         <div class="col l2 left">
-            <button class="injectores btn"><a href="#injectores" id="inyector">injectores</a></button>
-            <button class="repustos btn"><a href="#repuestos" id="repuestos">Repuestos</a></button>
-            <button class="estaciones btn"><a href="#estaciones">estaciones</a></button>
+            <li>
+                <ul><button class="injectores btn"><a href="#injectores" id="inyector">injectores</a></button></ul>
+                <ul><button class="repustos btn"><a href="#repuestos" id="repuestos">Repuestos</a></button></ul>
+                <ul><button class="estaciones btn"><a href="#estaciones" id="estaciones">estaciones</a></button></ul>
+                <ul><button class="Todos btn"><a href="#Todos" id="Todos">Todos</a></button></ul>
+            </li>
+        </div>
+        <div class="col l8 elemts-container ">
+            <div class="elements-title center"><span class="allHide">Todos Los productos</span><span id="elements-title-show"></span></div>
+            <div class="row" id="element-row">
+                <div class="allHide">
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/AaDUS2Ul.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Injector Wolsvagen</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/qRLFvlFm.jpg">
+                                <span class="card-title">Injector Ford</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small><b>0.66$</b></small></p>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/DBC0l7Tm.jpg">
+                                <span class="card-title">Injector Renault</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small><b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/tTA2Vnfm.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Orings</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/fDJclE1l.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Microfiltros</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/IzdEQcgl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Puntas de Araña</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/JftD1Eul.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Arandela Superior</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/WWIjyZEl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Tobera Bosch</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/YddkyxDl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Tobera para toyota</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12 ">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/p2IOVvzl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Tobera Platillo</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12 ">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/bqzx8Xnl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Arandela de Plastico</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://i.imgur.com/0KBCXGHl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                            <span class="card-title">Ramal para banco de pruebas / launch</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            <p class="center"><small>Price: <b>0.66$</b></small></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://i.imgur.com/eSbI21Il.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
+                                <span class="card-title">Panel de control para Banco de Prubas</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p class="center"><small>Price: <b>0.66$</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
