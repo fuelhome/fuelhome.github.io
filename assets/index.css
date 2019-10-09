@@ -7,6 +7,36 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body h3 {
+    font-family: Anton;
+    font-size: 3.5em;
+}
+
+/*para todos las cartas */
+
+.card-title {
+    padding: 10px !important;
+    border-radius: 30px;
+    background: #0d0d0d;
+    color: #f2b705 !important;
+    font-family: Anton;
+    font-size: 18px !important;
+}
+
+.card-title:hover {
+    padding: 10px !important;
+    border-radius: 30px;
+    background: #f2b705;
+    color: #0d0d0d !important;
+    font-family: Anton;
+    font-size: 18px !important;
+}
+
+.card-content p{
+    color: black;
+}
+
 /*css del boton arriba*/
 .boton-arriba {
     position: fixed;
@@ -225,9 +255,36 @@ header{
 }
 /*esto es para los servicios*/
 
+.servicios h3 {
+    font-family: Anton;
+    font-size: 3.5em;
+}
+
+.serviciosTitle h3 {
+    font-size: 2em;
+}
+
 /*esto es para los inyectores*/
 
+#productos h3 {
+    font-family: Anton;
+    font-size: 3.5em;
+}
+
+/*esto es para los repuestos de injectores*/
+
+.repuestosDeInjectores h3{
+    font-family: Anton;
+    font-size: 3.5em;
+}
+
 /*esto es para las ubicaciones*/
+
+#ubicanos h4 {
+    font-family: Anton;
+    font-size: 3.5em;
+}
+
 #ubicanos iframe {
     max-width: 100%;
 }
