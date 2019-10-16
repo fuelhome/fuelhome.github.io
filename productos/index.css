@@ -18,3 +18,17 @@
     text-decoration: none;
     list-style-type: none !important;
 }
+
+
+@media screen and (max-width: 992px) {
+    /*esto es para los elementos de contacto superior*/
+    .phone-number h3 {
+        font-size: 40px !important;
+    }
+
+    /*esto es para el footer*/
+
+    .center-align {
+        text-align: center;
+    }
+}
