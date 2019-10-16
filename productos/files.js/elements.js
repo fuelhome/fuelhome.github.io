@@ -7,7 +7,7 @@ document.getElementById("inyector").addEventListener("click", ShowInjectors);
 
 function ShowInjectors () {
     document.getElementById("element-row").innerHTML = `<div class="row">
-    <div class="col m3 offset-m1 s10">
+    <div class="col m3 offset-m1 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/AaDUS2Ul.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -19,7 +19,7 @@ function ShowInjectors () {
             </div>
         </div>
     </div>    
-    <div class="col m3 s10">
+    <div class="col m3 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/qRLFvlFm.jpg">
@@ -31,7 +31,7 @@ function ShowInjectors () {
             </div>
         </div>        
     </div>
-    <div class="col m3 s10">
+    <div class="col m3 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/DBC0l7Tm.jpg">
@@ -56,7 +56,7 @@ document.getElementById("repuestos").addEventListener("click", ShowRepuestos);
 function ShowRepuestos () {
     document.getElementById("element-row").innerHTML = `<div class="img-r servicios" id="servicios">
     <div class="row">
-        <div class="col m3 offset-m1 s10">
+        <div class="col m3 offset-m1 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/tTA2Vnfm.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -68,7 +68,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/fDJclE1l.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -80,7 +80,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/IzdEQcgl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -92,7 +92,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10 offset-m1">
+        <div class="col m3 s10 push-s1 offset-m1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/JftD1Eul.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -104,7 +104,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/WWIjyZEl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -116,7 +116,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/YddkyxDl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -128,7 +128,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10 offset-m1 push-m2 ">
+        <div class="col m3 s10 push-s1 offset-m1 push-m2 ">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/p2IOVvzl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -140,7 +140,7 @@ function ShowRepuestos () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10 push-m2 ">
+        <div class="col m3 s10 push-s1 push-m2 ">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/bqzx8Xnl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -166,7 +166,7 @@ document.getElementById("estaciones").addEventListener("click", showBancosDePrue
 function showBancosDePruebas () {
     document.getElementById("element-row").innerHTML = `<div class="row">
     <div class="col m2 hide-on-small-only"></div>
-    <div class="col m3 s10">
+    <div class="col m3 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/0KBCXGHl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -178,7 +178,7 @@ function showBancosDePruebas () {
             </div>
         </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/eSbI21Il.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -202,7 +202,7 @@ document.getElementById("Todos").addEventListener("click", ShowAll);
 
 function ShowAll () {
     document.getElementById("element-row").innerHTML = `<div class="row">
-    <div class="col m3 offset-m2 s10">
+    <div class="col m3 offset-m2 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/AaDUS2Ul.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -214,7 +214,7 @@ function ShowAll () {
             </div>
         </div>
     </div>    
-    <div class="col m3 s10">
+    <div class="col m3 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/qRLFvlFm.jpg">
@@ -226,7 +226,7 @@ function ShowAll () {
             </div>
         </div>        
     </div>
-    <div class="col m3 s10">
+    <div class="col m3 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/DBC0l7Tm.jpg">
@@ -238,7 +238,7 @@ function ShowAll () {
             </div>
         </div>
     </div>
-    <div class="col m3 offset-m2 s10">
+    <div class="col m3 offset-m2 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/tTA2Vnfm.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -250,7 +250,7 @@ function ShowAll () {
             </div>
         </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/fDJclE1l.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -262,7 +262,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/IzdEQcgl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -274,7 +274,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 offset-m1 s10">
+        <div class="col m3 offset-m1 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/JftD1Eul.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -286,7 +286,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/WWIjyZEl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -298,7 +298,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/YddkyxDl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -310,7 +310,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 offset-m1 s10 ">
+        <div class="col m3 offset-m1 s10 push-s1 ">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/p2IOVvzl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -322,7 +322,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10 ">
+        <div class="col m3 s10 push-s1 ">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/bqzx8Xnl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -334,7 +334,7 @@ function ShowAll () {
                 </div>
             </div>
         </div>
-        <div class="col m3 s10">
+        <div class="col m3 s10 push-s1">
         <div class="card">
             <div class="card-image">
                 <img src="https://i.imgur.com/0KBCXGHl.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
@@ -346,7 +346,7 @@ function ShowAll () {
             </div>
         </div>
         </div>
-        <div class="col m3 offset-m1 s10">
+        <div class="col m3 offset-m1 s10 push-s1">
             <div class="card">
                 <div class="card-image">
                     <img src="https://i.imgur.com/eSbI21Il.jpg" alt="injector wolsvagen volkswagen repuestos venezuela cojedes valencia">
