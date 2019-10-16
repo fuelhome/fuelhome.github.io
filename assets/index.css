@@ -12,7 +12,11 @@ body h3 {
     font-family: Anton;
     font-size: 3.5em;
 }
-
+/*esto para el nav de los telefonos*/
+.background {
+    background-image: url(https://i.imgur.com/oudWSBSm.jpg);
+    background-size: cover;
+}
 /*para todos las cartas */
 
 .card-title {
@@ -309,4 +313,43 @@ footer {
     margin: 0 auto;
     padding: 0;
     bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+    /*esto es para los elementos de contacto superior*/
+    .phone-number h3 {
+        font-size: 40px !important;
+    }
+
+    /*esto es para el footer*/
+
+    .center-align {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .text-desc p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    footer h5 {
+        font-size: 16px;
+    }
+
+    .boton-arriba {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: rgba(0, 150, 200, 0.5) !important;
+        border-radius:35px; 
+        width: 70px;
+        max-width: 70px;
+        min-width: 70px;
+        height: 70px;
+        min-height: 70px;
+        max-height: 70px;
+    }
 }
