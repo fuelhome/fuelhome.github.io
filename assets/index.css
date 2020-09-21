@@ -110,18 +110,20 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 12px;
 }
 
 .phone-number h3 {
     font-family: 'Anton';
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .call-number {
     font-family: 'Maven pro', 'Anton';
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .call-number a{
