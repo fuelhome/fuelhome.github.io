@@ -110,7 +110,7 @@ header{
 
 .phone-number h3 {
     font-family: 'Anton';
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .call-number {
@@ -297,4 +297,18 @@ footer {
     margin: 0 auto;
     padding: 0;
     bottom: 0;
+}
+
+@media screen and (min-width: 918px) {
+
+    .phone-number {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .phone-number h3 {
+        font-size: 2.5em;
+        margin: auto;
+    }
+
 }
